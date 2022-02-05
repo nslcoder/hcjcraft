@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #eee;
+  max-width: 50rem;
+  margin: auto;
+  padding: 20px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 35px;
+  color: #eee;
+  font-weight: 500;
+}
+
+main {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 7em;
+  margin: 40px 0;
+}
+
+.main-heading > h1 {
+  font-size: 5em;
+  display: inline-block;
+}
+
+.main-heading > h1:nth-child(2) {
+  background-image: linear-gradient(45deg, #3b5efa, #af4261);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.bio {
+  text-align: center;
+  color: grey;
+  width: 38rem;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons > button {
+  width: 130px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+}
+
+.buttons > button:nth-child(1) {
+  color: #eee;
+  background-color: #3b5efa;
+}
+
+.buttons > button:nth-child(2) {
+  color: #eee;
+  background-color: #000;
+  border: 2px solid #3b5efa;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > a {
+  display: inline-block;
+  color: #eee;
+  text-decoration: none;
+}
