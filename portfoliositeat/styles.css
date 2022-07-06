@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #4b515a;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+header {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro-image {
+    width: 100%;
+    position: relative;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+.short-intro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fafafa;
+    padding: 15px;
+    width: 30%;
+    font-size: 1.5em;
+}
+
+.bio {
+    margin: 80px auto;
+    display: flex;
+}
+
+.profile-wrapper {
+    width: 50%;
+}
+
+.profile-photo {
+    width: 100%;
+}
+
+.about-wrapper {
+    width: 50%;
+    padding: 0 75px;
+}
+
+.about {
+    height: 100%;
+    font-size: 1.1em;
+    padding: 50px;
+    border-top: 2px solid #dedede;
+    border-bottom: 2px solid #dedede;
+}
+
+.about > p {
+    margin: 30px 0;
+}
+
+button {
+    border: 1px solid #4b515a;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #34323d;
+    color: #fafafa;
+}
+
+.about > button {
+    padding: 10px 20px;
+}
+
+.contact {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact > h2 {
+    width: 25%;
+    font-size: 2em;
+}
+
+.line {
+    background-color: #dedede;
+    height: 2px;
+    width: 55%;
+}
+
+.contact > button {
+    padding: 10px 15px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #34323d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-logo-wrapper > nav {
+    width: 80%;
+}
+
+.nav-logo-wrapper > nav > a {
+    color: #fafafa;
+}
+
+.social-icons {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
